@@ -113,7 +113,6 @@
 }
 
 .two-columns__paragraph {
-  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -123,9 +122,6 @@
 .two-columns__paragraph:last-child {
   margin-bottom: 0;
 }
-
-/* использован псевдокласс, чтобы не создавать лишнего класса 
-для одного из параграфов */
 
 .two-columns__span-accent{
   font-weight: bold;
@@ -186,9 +182,9 @@
 
 .table__text { 
   margin: 20px 0 0; 
-  line-height: 1.2; 
-  font-size: 18px; 
-  font-weight: normal; 
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .feynman {
@@ -198,8 +194,7 @@
   flex-direction: column;
   padding-top: 100px;
   min-height: 790px;
-  background-color: #f2f2f2;
-  background: url('/images/feynman.png') no-repeat left bottom #f2f2f2;
+  background: no-repeat left bottom url('../images/feynman.png'), #f2f2f2;
   background-size: 867px 637px;
 }
 
