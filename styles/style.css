@@ -33,10 +33,12 @@
   height: 32px;
 }
 
+.logo_place_footer {
+  height: 35px;
+}
+
 .header__title {
-  text-align: start;
   position: relative;
-  align-items: center;
   margin-left: 64px;
   width: 730px;
   z-index: 2;
@@ -144,6 +146,15 @@
   font-weight: bold;
 }
 
+.section-title_theme_dark {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  width: 60%;
+  margin: 90px auto 0;
+  color: white;
+}
+
 .section-subtitle {
   text-align: center;
   width: 60%;
@@ -152,7 +163,17 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-}  
+}
+
+.section-subtitle_theme_dark {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 60%;
+  z-index: 1;
+  margin: 20px auto 0;
+  color: white;
+}
 
 .table {
   display: flex;
@@ -160,8 +181,9 @@
   justify-content: space-between;
   flex-direction: row;
   width: 1100px;
-  /* ниже заданы свойства для позиционирования 
-  блока с классом table_theme_dark */
+}
+
+.table_theme_dark {
   position: relative;
   z-index: 1;
 }
@@ -171,6 +193,12 @@
   flex-direction: column;
   margin-top: 60px;
   width: 250px;
+}
+
+.table__cell_theme_dark {
+  margin-top: 80px;
+  width: 200px;
+  color: white;
 }
 
 .table__heading{
@@ -202,7 +230,6 @@
   text-align: center;
   margin-top: 0;
   margin-bottom: 70px;
-  z-index: 2;
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
@@ -214,7 +241,6 @@
   align-items: center;
   margin-top: 0;
   margin-bottom: 0;
-  z-index: 2;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
@@ -240,31 +266,6 @@
   flex-direction: column;
   padding-bottom: 90px;
   background-color: #1f1f1f;
-}
-
-.section-title_theme_dark {
-  display: flex;
-  justify-content: center;
-  z-index: 1;
-  width: 60%;
-  margin: 90px auto 0;
-  color: white;
-}
-
-.section-subtitle_theme_dark {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  width: 60%;
-  z-index: 1;
-  margin: 20px auto 0;
-  color: white;
-}
-
-.table__cell_theme_dark {
-  margin-top: 80px;
-  width: 200px;
-  color: white;
 }
 
 .kaufman__triangle {
@@ -296,10 +297,6 @@
   justify-content: space-between;
   flex-direction: column;
   flex-basis: 711px;
-}
-
-.logo_place_footer {
-  height: 35px;
 }
 
 .footer__author {
