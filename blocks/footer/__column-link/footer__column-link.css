@@ -1,0 +1,12 @@
+/* создан дополнительный класс .footer__column-link 
+для управления стилем и положением элементов списков */
+
+.footer__column-link { 
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+  }
