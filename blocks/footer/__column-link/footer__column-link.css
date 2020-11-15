@@ -1,3 +1,12 @@
+@keyframes opacity {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+
 /* создан дополнительный класс .footer__column-link 
 для управления стилем и положением элементов списков */
 
@@ -9,4 +18,8 @@
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
+  }
+
+  .footer__column-link:hover {
+    animation: opacity 1.2s ease-in forwards;
   }

@@ -1,0 +1,9 @@
+.video__iframe {
+  position: relative;
+  bottom: -50px;
+  left: 0;
+}
+
+.video__iframe:last-child {
+    margin-left: 20px;
+}
