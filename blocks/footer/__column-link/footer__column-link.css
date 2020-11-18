@@ -21,5 +21,5 @@
   }
 
   .footer__column-link:hover {
-    animation: opacity 1.2s ease-in forwards;
+    animation: opacity 0.5s ease-in forwards;
   }

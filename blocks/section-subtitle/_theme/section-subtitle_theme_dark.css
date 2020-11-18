@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     position: relative;
-    width: 60%;
     z-index: 1;
     margin: 20px auto 0;
     color: white;
